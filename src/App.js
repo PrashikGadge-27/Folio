@@ -64,6 +64,9 @@ function App() {
       <Image source={fourth} imageloc="fourth"></Image> 
       <Image source={fifth} imageloc="fifth"></Image> 
       <Image source={sixth} imageloc="sixth"></Image> 
+      <Image source={First} imageloc="First"></Image> 
+      <Image source={second} imageloc="Second"></Image> 
+      <Image source={third} imageloc="third"></Image> 
       </div>
       </div>
       <br /><br /><br />

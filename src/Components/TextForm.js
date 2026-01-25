@@ -1,5 +1,6 @@
 import { useState } from "react";
 import React, { Component } from 'react'
+import Personal from '../Media/Personal.jpg';
 
 import PropTypes, { string } from "prop-types";
 //import React from 'react'
@@ -53,7 +54,13 @@ export default function TextForm(props) {
   </p>
   <br />
   <br />
+ <img
+    src={Personal} // import your image correctly
+    alt="Personal"
+    className="profile-top-right"
+  />
 </div>
+
     </>
   )
 }
