@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-track {
+    /* animation: scrollLeft 5s linear infinite; */
+  }
+}
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.custom-card {
+  background-color: #45455a;   /* card background */
+  color: white;                /* text color */
+  border-radius: 16px;
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* hover effect */
+.custom-card:hover {
+  background-color: #c3c3c9;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.profile-container {
+  color: #ffffff; /* default text white */
+}
+
+/* Big bright headings */
+.profile-name {
+  color: #00e5ff;        /* cyan / bright */
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.profile-role {
+  color: #ffca28;        /* golden */
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* Section headings */
+.section-heading {
+  color: #00ff9c;        /* neon green */
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* Paragraph text */
+.profile-text {
+  color: #ffffff;        /* bright white */
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.custom-navbar {
+  background-color: #0d6efd; /* Bootstrap blue */
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-bg {
+  background-image: url("./Media/port.avif");
+  background-size: cover;        /* cover the entire area */
+  background-position: center;   /* center the image */
+  background-repeat: no-repeat;  /* no tiles */
+  background-attachment: fixed;  /* keep background fixed while scrolling */
+  min-height: 100%;              /* grow with content */
+  width: 100%;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth animation */
+}
+
+.card:hover {
+  transform: scale(1.05) translateY(-10px); /* slightly bigger and lifted */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3); /* nice shadow pop */
+  z-index: 10; /* bring card on top if overlapping */
+}
+.section {
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 0;      /* spacing instead of centering */
+}
+.section-1 {
+  background-image: url("./Media/Black.avif");
+}
+.section-2 {
+  background-image: url("./Media/Grey.jpg");
+}
+.section-3 {
+  background-image: url("./Media/Black.jpg");
+}

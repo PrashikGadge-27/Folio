@@ -1,0 +1,33 @@
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-track {
+  display: flex;
+  flex-wrap: nowrap;        /* 🔥 single line */
+  gap: 50px;
+  animation: slideLeft 10s linear infinite;
+}
+
+.slider-img {
+  width: 300px;
+  height: 330px;
+  object-fit: cover;
+  flex-shrink: 0;           /* 🔥 prevents breaking queue */
+  border-radius: 10px;
+}
+.slider-img:hover {
+  transform: scale(1.15);                 /* 🔥 pop */
+  box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+  z-index: 10;                            /* stays above others */
+}
+/* Animation */
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
