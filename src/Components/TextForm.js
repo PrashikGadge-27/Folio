@@ -40,13 +40,13 @@ export default function TextForm(props) {
         </div>
 
         {/* Right: Image */}
-        <div className="profile-img">
-          <img
+        {/* <div className="profile-top-right"> */}
+                  <img
             src={Personal}
             alt="Personal"
             className="profile-photo"
           />
-        </div>
+        {/* </div> */}
       </div>
     </div>
   );
