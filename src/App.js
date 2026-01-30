@@ -100,7 +100,7 @@ function App() {
     </div>
     </div>
     </div>
-    <br /><br /><br /> <br /><br /><br /><br /><br /><br />
+    <br /><br /><br /> <br /><br /><br /><br /><br /><br /><br /><br /><br />
 
     <p> <h5 style={{textAlign:"center" , color:"#ebf3ea"}}> This site is designed and manintained by myself. </h5>
     <br /><h5 style={{textAlign:"center" , color:"#ebf3ea"}} ><a  href="mailto:prashikg73@gmail.com">prashikg73@gmail.com</a></h5></p>

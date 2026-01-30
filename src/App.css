@@ -23,7 +23,7 @@
 }
 
 .custom-card {
-  background-color: #45455a;   /* card background */
+  background-color: #312e3da4;   /* card background */
   color: white;                /* text color */
   border-radius: 16px;
   border: none;
@@ -32,7 +32,7 @@
 
 /* hover effect */
 .custom-card:hover {
-  background-color: #c3c3c9;
+  background-color: #4c614593;
   box-shadow: 0 20px 40px rgba(0,0,0,0.4);
 }
 
@@ -139,7 +139,7 @@ html, body {
 
 .card:hover {
   transform: scale(1.05) translateY(-10px); /* slightly bigger and lifted */
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3); /* nice shadow pop */
+  box-shadow: 0 15px 25px rgba(216, 12, 12, 0.3); /* nice shadow pop */
   z-index: 10; /* bring card on top if overlapping */
 }
 .section {
@@ -151,13 +151,13 @@ html, body {
   padding: 60px 0;      /* spacing instead of centering */
 }
 .section-1 {
-  background-image: url("./Media/Black.avif");
+  background-image: url("./Media/Backg.jpg");
 }
 .section-2 {
   background-image: url("./Media/Grey.jpg");
 }
 .section-3 {
-  background-image: url("./Media/Black.jpg");
+  background-image: url("./Media/Black.webp");
 }
 
 
