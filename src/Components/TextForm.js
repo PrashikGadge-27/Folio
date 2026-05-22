@@ -26,7 +26,7 @@ export default function TextForm(props) {
           <h3 className="profile-role"><u>About</u></h3>
           <p>
             Full Stack Developer with hands-on experience in ASP.NET Core, Oracle SQL,
-            REST APIs, and JavaScript, <br />
+            Web APIs, JavaScript, Flask, Docker <br />
             contributing to end-to-end enterprise applications in Trade Finance and Investment Management systems.
             <br />
             Strong problem-solving skills with exposure to automation and backend workflows.
@@ -35,7 +35,7 @@ export default function TextForm(props) {
           <h3 className="profile-role"><u>Technology Stack</u></h3>
           <p>
             .NET Core MVC | Oracle PL/SQL | React JS <br />
-            Python | RESTful APIs
+            Python | Web APIs | Flask | Docker
           </p>
         </div>
 
