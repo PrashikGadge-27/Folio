@@ -80,9 +80,11 @@
 }
 
 .profile-role {
-  color: #ffca28;        /* golden */
-  font-size: 1.5rem;
-  font-weight: 500;
+    color: #f5f114;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
 }
 
 /* Section headings */
@@ -158,7 +160,7 @@ html, body {
   padding: 60px 0;      /* spacing instead of centering */
 }
 .section-1 {
-  background-image: url("./Media/Backg.jpg");
+  background-image: url("./Media/back.avif");
 }
 .section-2 {
   background-image: url("./Media/Grey.jpg");
